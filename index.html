@@ -8,10 +8,14 @@
     <title>TicTacToe</title>
   </head>
   <body>
-    <p id="demo">Hello</p>
-    <button onclick="myFunction()">Play Now!</button>
+    <button id="start" type="button" onclick="startGame()">New Game</button>
+    <div class="playersTitle">
+      <span id="player1"></span>
+      <span id="vs">vs</span>
+      <span id="player2"></span>
+    </div>
 
-    <table>
+    <table id="table">
       <tr>
         <td id="0,0" class="cell"></td>
         <td id="0,1" class="cell"></td>
